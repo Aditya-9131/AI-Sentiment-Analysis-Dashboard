@@ -1,0 +1,35 @@
+# Dependencies
+frontend/node_modules/
+
+# Python
+backend/__pycache__/
+backend/*.pyc
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Build output
+frontend/build/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temp files
+nltk_download.txt
+python_check.txt
+backend/download_nltk.py
